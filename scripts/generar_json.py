@@ -1,0 +1,25 @@
+from exportador_json import guardar_json
+from lector_excel import leer_productos
+from validadores import validar_productos
+from utilidades import mostrar_errores
+
+from config import RUTA_JSON
+
+
+def main():
+
+    productos = leer_productos()
+
+    productos, errores = validar_productos(productos)
+
+    if errores:
+        mostrar_errores(errores)
+        return
+
+    guardar_json(productos, RUTA_JSON)
+
+    print("[OK] JSON generado correctamente.")
+
+if __name__ == "__main__":
+    main()
+    

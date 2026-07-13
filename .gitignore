@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Archivos temporales
+*.log
+
+# Carpetas temporales
+img/pendientes/
+img/procesadas_png/
+img/productos_defectuosos/
+
+# Datos del negocio
+data/*.xlsx
+
+# Archivos de entorno
+.env
