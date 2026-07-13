@@ -24,6 +24,7 @@
 body {
   font-family: "Inter", sans-serif;
   background: #f3f4f6;
+  overflow-x: hidden;
 }
 
 /* =========================================
@@ -280,7 +281,6 @@ main {
   background: white;
 
   border-radius: 12px;
-
   padding: 18px;
 
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -357,6 +357,8 @@ main {
 
   transition: 0.3s;
   z-index: 999;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-lateral.abierto {
@@ -365,6 +367,12 @@ main {
 
 .menu-lateral h2 {
   margin-bottom: 20px;
+}
+
+#categoriasMenu {
+  flex: 1;
+
+  overflow-y: auto;
 }
 
 .menu-lateral ul {
@@ -682,17 +690,27 @@ main {
   main {
     padding: 15px;
   }
+  .tarjeta {
+    min-width: 0;
+    padding: 12px;
+  }
+  .tarjeta img {
+    padding: 8px;
+  }
 
   .productos {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .producto-info h2 {
+    font-size: 1.7rem;
   }
   /* Categorías en celulares */
   .categorias {
     display: none;
   }
   .precio {
-    font-size: 1.35rem;
+    font-size: 1.1rem;
   }
   header {
     display: grid;
@@ -722,29 +740,47 @@ main {
   .buscador {
     grid-area: buscador;
   }
-  .modal-contenido {
-    padding: 20px;
-  }
 
-  .modal-grid {
-    grid-template-columns: 1fr;
-
-    gap: 20px;
-  }
   .barra-superior {
     flex-direction: column;
     align-items: stretch;
     gap: 12px;
   }
-
-  #ordenar {
-    width: 100%;
+  .modal {
+    padding: 10px;
   }
+
+  .modal-contenido {
+    width: 100%;
+    max-width: 100%;
+    max-height: 95vh;
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .modal-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
   .producto-modal-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .producto-imagen img {
+    max-height: 240px;
+  }
+
+  .modal-precio {
+    font-size: 1.5rem;
   }
 
   .modal-botones {
     flex-direction: column;
+  }
+
+  #ordenar {
+    width: 100%;
   }
 }
