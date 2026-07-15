@@ -86,7 +86,7 @@ def ejecutar_generacion_json():
     return True
 
 def publicar_github(mensaje):
-    raise RuntimeError("Error de prueba")
+    print("ENTRÉ A publicar_github()")
     resultado = subprocess.run(
         ["git", "status", "--short"],
         cwd=RAIZ,
