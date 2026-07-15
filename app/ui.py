@@ -445,6 +445,18 @@ class App(ctk.CTk):
         ).start()
 
 
+    def mostrar_error(self, proceso, error):
+
+        self.actualizar_estado(
+            f"🔴 Error durante {proceso}",
+            "#dc2626"
+        )
+
+        self.agregar_evento(
+            f"ERROR: {error}"
+        )
+
+
     def importar_excel_click(self):
 
         archivo = importar_excel()
@@ -507,17 +519,14 @@ class App(ctk.CTk):
         )
 
 
-    def _actualizacion_error(self, e):
+    def _actualizacion_error(self, error):
 
-        self.actualizar_estado(
-            "🔴 Error durante la actualización",
-            "#dc2626"
+        self.mostrar_error(
+            "la actualización",
+            error
         )
 
-        self.agregar_evento(
-            f"ERROR: {e}"
-        )
-    
+
     def abrir_excel_click(self):
 
         try:
@@ -621,25 +630,6 @@ class App(ctk.CTk):
         )
 
 
-    def _publicar_worker(self, mensaje):
-
-        try:
-
-            resultado = publicar_github(mensaje)
-
-            self.after(
-                0,
-                lambda: self._publicacion_ok(resultado)
-            )
-
-        except Exception as e:
-
-            self.after(
-                0,
-                lambda: self._publicacion_error(e)
-            )
-
-
     def _publicacion_ok(self, resultado):
 
         if resultado == "SIN_CAMBIOS":
@@ -664,13 +654,9 @@ class App(ctk.CTk):
         )
 
 
-    def _publicacion_error(self, e):
+    def _publicacion_error(self, error):
 
-        self.actualizar_estado(
-            "🔴 Error durante la publicación",
-            "#dc2626"
-        )
-
-        self.agregar_evento(
-            f"ERROR: {e}"
+        self.mostrar_error(
+            "la publicación",
+            error
         )
