@@ -1,5 +1,5 @@
 from openpyxl import load_workbook
-from scripts.config import HOJA_PRODUCTOS, BASE_DIR
+from scripts.config import HOJA_PRODUCTOS, BASE_DIR, RUTA_ICONO
 import tkinter as tk
 from tkinter import filedialog, messagebox
 # Pillow nos permite abrir, redimensionar y mostrar imágenes.
@@ -313,6 +313,11 @@ def actualizar_estado(texto):
 
 # Creamos la ventana principal de la aplicación.
 root = tk.Tk()
+try:
+    root.iconbitmap(str(RUTA_ICONO))
+except Exception:
+    pass
+
 root.after(
     100,
     lambda: root.focus_force()
@@ -322,10 +327,21 @@ root.after(
 root.title("Asistente de imágenes - Catálogo Mi Mayo")
 
 # Tamaño inicial de la ventana.
-root.geometry("720x620")
+root.geometry("840x620")
+
+# Centrar la ventana en la pantalla
+root.update_idletasks()
+
+ancho = 840
+alto = 660
+
+x = (root.winfo_screenwidth() - ancho) // 2
+y = (root.winfo_screenheight() - alto) // 2
+
+root.geometry(f"{ancho}x{alto}+{x}+{y}")
 
 # Impide que la ventana sea demasiado pequeña.
-root.minsize(650, 580)
+root.minsize(800, 580)
 
 # Color de fondo.
 root.configure(bg="#f3f4f6")

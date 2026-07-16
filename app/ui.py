@@ -1,7 +1,7 @@
 import customtkinter as ctk
 from datetime import datetime
 from estilos import *
-from pathlib import Path
+from scripts.config import RUTA_ICONO
 import threading
 from acciones import (
     importar_excel,
@@ -16,21 +16,21 @@ class App(ctk.CTk):
 
     def __init__(self):
         super().__init__()
-        ruta_icono = Path(__file__).resolve().parent.parent / "logo.ico"
 
-        if ruta_icono.exists():
+        if RUTA_ICONO.exists():
             try:
-                self.iconbitmap(str(ruta_icono))
+                self.iconbitmap(str(RUTA_ICONO))
             except Exception:
                 pass
+
         self.title("Catálogo Mi Mayo")
         self.geometry("1450x930")
         self.minsize(1200, 800)
 
         # Configuración principal de la ventana
         self.grid_columnconfigure(0, weight=1)
-        self.grid_rowconfigure(2, weight=1) # El dashboard se expande
-        self.grid_rowconfigure(3, weight=0) # El registro mantiene su tamaño
+        self.grid_rowconfigure(2, weight=1)
+        self.grid_rowconfigure(3, weight=0)
 
         self.crear_interfaz()
 
