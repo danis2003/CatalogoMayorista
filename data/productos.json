@@ -705,7 +705,7 @@
         "nombre": "BOMBON FERRERO ESTUCH 24U",
         "marca": "Ferrero Rocher",
         "categoria": "Chocolates",
-        "precio": 24946.57,
+        "precio": 22748.0,
         "imagen": "3055.webp",
         "activo": true
     },
@@ -905,7 +905,7 @@
         "nombre": "HAMB CLASICA UG 4U 332GR",
         "marca": "Union Ganadera",
         "categoria": "Congelados",
-        "precio": 8079.17,
+        "precio": 7593.96,
         "imagen": "3235.webp",
         "activo": true
     },
@@ -925,7 +925,7 @@
         "nombre": "HAMB MEDIANA UG 4U 276GR",
         "marca": "Union Ganadera",
         "categoria": "Congelados",
-        "precio": 6976.86,
+        "precio": 6558.2,
         "imagen": "3234.webp",
         "activo": true
     },
@@ -1005,7 +1005,7 @@
         "nombre": "MILKA AIREADO LEGER 50 GS",
         "marca": "Milka",
         "categoria": "Chocolates",
-        "precio": 2675.31,
+        "precio": 2821.72,
         "imagen": "3014.webp",
         "activo": true
     },
@@ -1105,7 +1105,7 @@
         "nombre": "NUGGETS UG 300GR",
         "marca": "Union Ganadera",
         "categoria": "Congelados",
-        "precio": 4065.6,
+        "precio": 3777.62,
         "imagen": "3240.webp",
         "activo": true
     },
@@ -1175,7 +1175,7 @@
         "nombre": "SALCHICHA UG 12U 380GR",
         "marca": "Union Ganadera",
         "categoria": "Frescos",
-        "precio": 3990.58,
+        "precio": 3590.07,
         "imagen": "3242.webp",
         "activo": true
     },
@@ -1185,7 +1185,7 @@
         "nombre": "SALCHICHA UG 6U 190GR",
         "marca": "Union Ganadera",
         "categoria": "Frescos",
-        "precio": 2094.51,
+        "precio": 1890.02,
         "imagen": "3243.webp",
         "activo": true
     },
@@ -1195,7 +1195,7 @@
         "nombre": "SALCHICHA UG 6U 230GR",
         "marca": "Union Ganadera",
         "categoria": "Frescos",
-        "precio": 2204.62,
+        "precio": 2203.41,
         "imagen": "3241.webp",
         "activo": true
     },
