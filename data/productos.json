@@ -1308,5 +1308,15 @@
         "precio": 1874.29,
         "imagen": "3209.webp",
         "activo": true
+    },
+    {
+        "fila_excel": 133,
+        "codigo": 1163,
+        "nombre": "ARCOR MENTA CRISTAL/MIX 810G",
+        "marca": "Arcor",
+        "categoria": "Golosinas",
+        "precio": 9750.18,
+        "imagen": "1163.webp",
+        "activo": true
     }
 ]

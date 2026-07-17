@@ -1,4 +1,5 @@
 from openpyxl import load_workbook
+from pathlib import Path
 from scripts.config import HOJA_PRODUCTOS, BASE_DIR, RUTA_ICONO
 import tkinter as tk
 from tkinter import filedialog, messagebox
