@@ -2548,5 +2548,15 @@
         "precio": 871.2,
         "imagen": "649.webp",
         "activo": true
+    },
+    {
+        "fila_excel": 257,
+        "codigo": 39,
+        "nombre": "ALFAJOR CAP DEL ESPACIO *40G",
+        "marca": "Capitán del Espacio",
+        "categoria": "Alfajores",
+        "precio": 980.1,
+        "imagen": "39.webp",
+        "activo": true
     }
 ]
