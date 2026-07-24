@@ -645,7 +645,7 @@
         "nombre": "BILLIKEN MAST FRUTA 600GR",
         "marca": "Billiken",
         "categoria": "Golosinas",
-        "precio": 3835.7,
+        "precio": 4388.67,
         "imagen": "887.webp",
         "activo": true
     },
@@ -655,7 +655,7 @@
         "nombre": "BILLIKEN MAST YOGURT 600GR",
         "marca": "Billiken",
         "categoria": "Golosinas",
-        "precio": 3993.0,
+        "precio": 4750.46,
         "imagen": "3075.webp",
         "activo": true
     },
@@ -965,7 +965,7 @@
         "nombre": "KINDER MAXI*10 UNI",
         "marca": "Kinder",
         "categoria": "Chocolates",
-        "precio": 12940.95,
+        "precio": 13054.69,
         "imagen": "954.webp",
         "activo": true
     },
@@ -2597,6 +2597,346 @@
         "categoria": "Alfajores",
         "precio": 1524.6,
         "imagen": "9861.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 262,
+        "codigo": 25,
+        "nombre": "AJI ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 753.83,
+        "imagen": "25.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 263,
+        "codigo": 3401,
+        "nombre": "AJO ALICANTE 50GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 1234.2,
+        "imagen": "3401.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 264,
+        "codigo": 8710,
+        "nombre": "BONOBON PASTA 290 G",
+        "marca": "Arcor",
+        "categoria": "Almacén",
+        "precio": 5069.9,
+        "imagen": "8710.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 265,
+        "codigo": 3403,
+        "nombre": "CAPELETTINI GIACOMO 500GR",
+        "marca": "Giacomo",
+        "categoria": "Almacén",
+        "precio": 4426.18,
+        "imagen": "3403.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 266,
+        "codigo": 3269,
+        "nombre": "CHEDDAR SALSA DANICA X 209 G",
+        "marca": "Dánica",
+        "categoria": "Almacén",
+        "precio": 1401.18,
+        "imagen": "3269.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 267,
+        "codigo": 9849,
+        "nombre": "CHIMICHURRI ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 1007.93,
+        "imagen": "9849.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 268,
+        "codigo": 427,
+        "nombre": "COCO RALLADO ALICANTE 50GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 1401.18,
+        "imagen": "427.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 269,
+        "codigo": 435,
+        "nombre": "COMINO ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 873.62,
+        "imagen": "435.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 270,
+        "codigo": 437,
+        "nombre": "CONDIMENTO ARROZ ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 866.36,
+        "imagen": "437.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 271,
+        "codigo": 2694,
+        "nombre": "CONDIMENTO MILANESA 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 865.15,
+        "imagen": "2694.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 272,
+        "codigo": 440,
+        "nombre": "CONDIMENTO PIZZA ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 807.07,
+        "imagen": "440.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 273,
+        "codigo": 3402,
+        "nombre": "CONDIMENTO TUCO ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 744.15,
+        "imagen": "3402.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 274,
+        "codigo": 8900,
+        "nombre": "DULCE DE LECHE TREGAR X 400",
+        "marca": "Tregar",
+        "categoria": "Almacén",
+        "precio": 2495.02,
+        "imagen": "8900.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 275,
+        "codigo": 3385,
+        "nombre": "EXQUISITA BIZCOCHUELO 540GR",
+        "marca": "Molinos",
+        "categoria": "Almacén",
+        "precio": 2580.93,
+        "imagen": "3385.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 276,
+        "codigo": 9847,
+        "nombre": "FIDEOS KNORR X 500 GR",
+        "marca": "Knorr",
+        "categoria": "Almacén",
+        "precio": 998.25,
+        "imagen": "9847.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 277,
+        "codigo": 8711,
+        "nombre": "FLAN NOEL 200G",
+        "marca": "Noel",
+        "categoria": "Almacén",
+        "precio": 3859.9,
+        "imagen": "8711.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 278,
+        "codigo": 3266,
+        "nombre": "KETCHUP DANICA X220G",
+        "marca": "Dánica",
+        "categoria": "Almacén",
+        "precio": 1128.93,
+        "imagen": "3266.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 279,
+        "codigo": 3144,
+        "nombre": "LEVEX X 10 GR",
+        "marca": "Levex",
+        "categoria": "Almacén",
+        "precio": 665.5,
+        "imagen": "3144.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 280,
+        "codigo": 3265,
+        "nombre": "MAYONESA DANICA X100ML",
+        "marca": "Dánica",
+        "categoria": "Almacén",
+        "precio": 431.97,
+        "imagen": "3265.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 281,
+        "codigo": 1180,
+        "nombre": "MERMELADA NOEL* 454 GS",
+        "marca": "Noel",
+        "categoria": "Almacén",
+        "precio": 2495.02,
+        "imagen": "1180.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 282,
+        "codigo": 3267,
+        "nombre": "MOSTAZA DANICA X 220 G",
+        "marca": "Dánica",
+        "categoria": "Almacén",
+        "precio": 788.92,
+        "imagen": "3267.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 283,
+        "codigo": 1357,
+        "nombre": "OREGANO ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 1155.55,
+        "imagen": "1357.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 284,
+        "codigo": 8809,
+        "nombre": "PAN RALLADO PREFERIDO 500 G",
+        "marca": "Molinos",
+        "categoria": "Almacén",
+        "precio": 1473.78,
+        "imagen": "8809.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 285,
+        "codigo": 8737,
+        "nombre": "PAN RALLADO SAN MARCOS 400GR",
+        "marca": "A. M. Sanchez",
+        "categoria": "Almacén",
+        "precio": 847.0,
+        "imagen": "8737.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 286,
+        "codigo": 1508,
+        "nombre": "PEREJIL ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 1339.47,
+        "imagen": "1508.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 287,
+        "codigo": 1531,
+        "nombre": "PIMENTON ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 735.68,
+        "imagen": "1531.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 288,
+        "codigo": 1532,
+        "nombre": "PIMIENTA BLANCA ALICANTE 25G",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 1543.96,
+        "imagen": "1532.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 289,
+        "codigo": 2426,
+        "nombre": "PIMIENTA NEGRA ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 1125.3,
+        "imagen": "2426.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 290,
+        "codigo": 2840,
+        "nombre": "POLENTA NOEL 490 GR",
+        "marca": "Noel",
+        "categoria": "Almacén",
+        "precio": 769.56,
+        "imagen": "2840.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 291,
+        "codigo": 8726,
+        "nombre": "POLENTA PRESTO PRONTA 490G",
+        "marca": "Arcor",
+        "categoria": "Almacén",
+        "precio": 1372.14,
+        "imagen": "8726.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 292,
+        "codigo": 1631,
+        "nombre": "PROVENZAL ALICANTE 25GR",
+        "marca": "Alicante",
+        "categoria": "Almacén",
+        "precio": 1066.01,
+        "imagen": "1631.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 293,
+        "codigo": 3157,
+        "nombre": "PURE MAGGI 125GR",
+        "marca": "Nestlé",
+        "categoria": "Almacén",
+        "precio": 1836.78,
+        "imagen": "3157.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 294,
+        "codigo": 8820,
+        "nombre": "REBOZADOR MAMA COCINA X 500",
+        "marca": "Molino Cañuelas",
+        "categoria": "Almacén",
+        "precio": 1165.23,
+        "imagen": "8820.webp",
+        "activo": true
+    },
+    {
+        "fila_excel": 295,
+        "codigo": 8709,
+        "nombre": "SALSA PIZZA NOEL 340 GR",
+        "marca": "Noel",
+        "categoria": "Almacén",
+        "precio": 1040.6,
+        "imagen": "8709.webp",
         "activo": true
     }
 ]
